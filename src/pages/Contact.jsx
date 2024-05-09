@@ -1,12 +1,16 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
-
+import "./Contact.css";
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <PageTitle title="Contact Page" />
-    </div>
+    <>
+      <div className="bg-image-contact">
+        <PageTitle title="Contact Page" />
+        <div className="main-content-contact">
+          <p>Contact</p>
+        </div>
+      </div>
+    </>
   );
 };
 

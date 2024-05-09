@@ -1,20 +1,21 @@
 * {
-  * {
-    box-sizing: border-box;
-    list-style-type: none;
-    margin: 0;
-    outline: none;
-    padding: 0;
-    text-decoration: none;
-  }
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
 }
 
+/* navbar start here */
 .nav-bar {
-  background-color: #0b1b2b;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  opacity: 0.6;
+  position: fixed;
+  margin-top: 20px;
 }
 
 .navbar-logo {
@@ -31,26 +32,15 @@
   gap: 50px;
 }
 
-/* .navbar-link:hover {
-  color: orange;
-  text-decoration: overline;
-} */
-
 .navbar-link .active {
   color: orange;
-  text-decoration: overline;
+  text-decoration: underline 2px solid orange;
+  text-underline-offset: -63.5px;
 }
 
 .nav-link:hover {
   color: orange;
-  text-decoration: overline;
-  /* margin-top: 10px; */
 }
-
-/* .nav-link.active {
-  color: orange;
-
-} */
 
 .nav-link {
   color: white;
@@ -58,3 +48,78 @@
   align-content: center;
   font-family: "Fira Sans", sans-serif;
 }
+/* navbar ends here */
+
+/* Footer starts here */
+.chevron-up {
+  background-color: rgb(27, 31, 29);
+  color: rgb(171, 171, 177);
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.chevron-up i:hover {
+  color: orange;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #505f6e;
+  border-radius: 80%;
+  background-color: #505f6e;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+}
+.footer-bar {
+  display: flex;
+  background-color: #505f6e;
+  color: rgb(138, 134, 134);
+  padding: 40px;
+  justify-content: space-between;
+  /* overflow: hidden; */
+}
+
+.footer-right {
+  display: flex;
+  margin-right: 30px;
+}
+
+.left-div {
+  display: flex;
+}
+
+.left-div p {
+  margin-right: 5px;
+}
+
+.left-div i {
+  margin-right: 5px;
+  color: red;
+}
+
+.right-div {
+  display: flex;
+}
+
+.right-div p {
+  margin-right: 5px;
+}
+
+.right-div i {
+  margin-right: 5px;
+  color: rgb(22, 202, 226);
+}
+
+.by {
+  margin-right: 5px;
+}
+
+.name {
+  color: rgba(131, 236, 11, 0.651);
+}
+
+/* Footer ends here */

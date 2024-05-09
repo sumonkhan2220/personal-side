@@ -1,12 +1,16 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
-
+import "./About.css";
 const About = () => {
   return (
-    <div>
-      <PageTitle title="About Page" />
-      <h1>About Me</h1>
-    </div>
+    <>
+      <div className="bg-image-about">
+        <PageTitle title="About Page" />
+        <div className="main-content-about">
+          <p>About Me</p>
+        </div>
+      </div>
+    </>
   );
 };
 

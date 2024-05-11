@@ -10,14 +10,16 @@ const Home = () => {
       <div className="bg-image">
         <PageTitle title="Home Page" />
         <div className="main-content">
-          <h2>Welcome</h2>
-          <div className="line-design">
-            <h3>
-              <img src={image15} alt="logo" />
-            </h3>
+          <div className="up_container">
+            <h2>Welcome</h2>
+            <div className="line-design">
+              <h3>
+                <img src={image15} alt="logo" />
+              </h3>
 
-            <div className="content-mid">
-              <h1>md saidur Rahman Sumon</h1>
+              <div className="content-mid">
+                <h1>md saidur Rahman Sumon</h1>
+              </div>
             </div>
           </div>
 

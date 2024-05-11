@@ -17,6 +17,7 @@
 .main-content h2 {
   margin-bottom: 15px;
   color: orange;
+  /* animation: Slide_Up 1.4s ease; */
 }
 
 .line-design h3 {
@@ -26,6 +27,7 @@
   font-size: 30px;
   text-transform: uppercase;
   position: relative;
+  /* animation: Slide_Up 1.4s ease; */
 }
 
 .line-design h3:before {
@@ -37,6 +39,7 @@
   position: absolute;
   left: 430px;
   border: none;
+  /* animation: Slide_Up 1.4s ease; */
 }
 
 .line-design h3:after {
@@ -48,6 +51,7 @@
   position: absolute;
   right: 430px;
   border: none;
+  /* animation: Slide_Up 1.4s ease; */
 }
 
 .content-mid {
@@ -56,11 +60,17 @@
   width: 490px;
   justify-content: center;
   margin: 15px;
+  /* animation: Slide_Up 1.4s ease; */
 }
 
 .content-mid h1 {
   text-transform: uppercase;
   margin-bottom: 30px;
+  /* animation: Slide_Up 1.4s ease; */
+}
+
+.up_container {
+  animation: Slide_Up 1.4s ease;
 }
 
 .style-div {
@@ -69,4 +79,13 @@
 
 .style-div p {
   font-size: 30px;
+}
+
+@keyframes Slide_Up {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

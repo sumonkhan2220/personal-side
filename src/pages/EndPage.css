@@ -1,56 +1,51 @@
-.End_MainDiv {
+section {
   background-color: #505f6e;
   height: 60vh;
-  /* position: relative; */
-}
-.main {
-  position: relative;
-  /* position: absolute; */
+  margin: 0 auto;
 }
 
-/* .line-design h3 {
+.line-header {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 20px;
-  text-transform: uppercase;
-  position: relative;
-} */
+}
 
-.line-design1 h3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.line-header h2 {
+  margin-top: 100px;
   font-size: 20px;
   font-style: italic;
+  align-items: center;
+  justify-content: center;
   color: orange;
   text-transform: uppercase;
-  position: relative;
+  /* position: relative; */
+  margin-bottom: 10px;
 }
 
-.line-design1 h3:before {
+.line-header h2:before {
   content: "";
   display: inline-block;
   width: 190px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  left: 380px;
+  left: 370px;
+  margin-top: 10px;
   border: none;
 }
 
-.line-design1 h3:after {
+.line-header h2:after {
   content: "";
   display: inline-block;
   width: 190px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  right: 380px;
+  right: 370px;
+  margin-top: 10px;
   border: none;
 }
 
-.main p {
+.SUBSCRIBE {
   text-align: center;
   padding: 40px;
   font-size: 40px;
@@ -59,24 +54,39 @@
   color: white;
 }
 
-.line-design h3:before {
+.line-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.line-footer img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+
+.line-footer:before {
   content: "";
   display: inline-block;
-  width: 190px;
+  width: 250px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  left: 430px;
+  left: 370px;
+  margin-top: 20px;
   border: none;
 }
 
-.line-design h3:after {
+.line-footer:after {
   content: "";
   display: inline-block;
-  width: 190px;
+  width: 250px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  right: 430px;
+  right: 370px;
+  margin-top: 20px;
   border: none;
 }

@@ -3,21 +3,21 @@ import image15 from "../assets/image15.jpg";
 import "./EndPage.css";
 const EndPage = () => {
   return (
-    <div className="End_MainDiv">
+    <section>
       <div className="main">
-        <div className="line-design1">
-          <h3>Stay Connected</h3>
+        <div className="line-header">
+          <h2>Stay Connected</h2>
         </div>
 
-        <p>SUBSCRIBE!</p>
+        <div className="SUBSCRIBE">
+          <p>SUBSCRIBE!</p>
+        </div>
 
-        <div className="line-design">
-          <h3>
-            <img src={image15} alt="logo" />
-          </h3>
+        <div className="line-footer">
+          <img src={image15} alt="logo" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

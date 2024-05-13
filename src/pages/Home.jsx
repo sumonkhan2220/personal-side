@@ -3,6 +3,7 @@ import PageTitle from "../components/PageTitle";
 import { NavLink } from "react-router-dom";
 import "./Home.css";
 import image15 from "../assets/image15.jpg";
+import EndPage from "./EndPage";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <div className="main-content">
           <div className="up_container">
             <h2>Welcome</h2>
+
             <div className="line-design">
               <h3>
                 <img src={image15} alt="logo" />
@@ -26,8 +28,14 @@ const Home = () => {
           <div className="style-div">
             <p>I Believe, Life is Really Beautiful!</p>
           </div>
+
+          <div className="font-awesome">
+            <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+            <p>Find Tutorial</p>
+          </div>
         </div>
       </div>
+      <EndPage />
     </>
   );
 };

@@ -1,7 +1,7 @@
 .bg-image {
   background-image: url(../assets/image4.jpeg);
   background-size: 100% 100%;
-  height: 100vh;
+  height: 120vh;
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
@@ -81,6 +81,28 @@
   font-size: 30px;
 }
 
+.font-awesome {
+  background-color: rgb(221, 25, 25);
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 43%;
+  padding: 8px;
+  border: 1px solid green;
+  margin-top: 45px;
+}
+
+.font-awesome:hover {
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+
+.font-awesome p {
+  margin-left: 10px;
+  font-size: 25px;
+}
 @keyframes Slide_Up {
   0% {
     transform: translateY(250px);

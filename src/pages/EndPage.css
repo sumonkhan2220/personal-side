@@ -1,92 +1,86 @@
-section {
+.End_MainDiv {
   background-color: #505f6e;
   height: 60vh;
-  margin: 0 auto;
 }
 
-.line-header {
-  display: flex;
-  justify-content: center;
-}
-
-.line-header h2 {
-  margin-top: 100px;
-  font-size: 20px;
-  font-style: italic;
-  align-items: center;
-  justify-content: center;
+.end-container {
+  display: inline-block;
   color: orange;
   text-transform: uppercase;
-  /* position: relative; */
-  margin-bottom: 10px;
+  margin-top: 100px;
+  justify-content: center;
+  margin-left: 40%;
+  position: relative;
 }
 
-.line-header h2:before {
+.h3_tag h3 {
+  display: flex;
+  /* position: absolute; */
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.h3_tag h3:before {
   content: "";
   display: inline-block;
   width: 190px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  left: 370px;
-  margin-top: 10px;
+  left: 250px;
   border: none;
+  top: 10px;
 }
 
-.line-header h2:after {
+.h3_tag h3:after {
   content: "";
   display: inline-block;
   width: 190px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  right: 370px;
-  margin-top: 10px;
+  right: 250px;
   border: none;
+  top: 10px;
 }
 
-.SUBSCRIBE {
-  text-align: center;
-  padding: 40px;
-  font-size: 40px;
-  font-weight: bold;
+.p_tag p {
+  margin-bottom: 20px;
+  font-size: 50px;
   font-style: italic;
   color: white;
-}
-
-.line-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.line-footer img {
-  display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+}
+
+.h2_tag h2 {
   display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.line-footer:before {
+.h2_tag h2:before {
   content: "";
   display: inline-block;
-  width: 250px;
+  width: 240px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  left: 370px;
-  margin-top: 20px;
+  left: 200px;
   border: none;
+  bottom: 50px;
 }
 
-.line-footer:after {
+.h2_tag h2:after {
   content: "";
   display: inline-block;
-  width: 250px;
+  width: 240px;
   height: 3px;
   background-color: rgba(238, 223, 223, 0.5);
   position: absolute;
-  right: 370px;
-  margin-top: 20px;
+  right: 200px;
   border: none;
+  bottom: 50px;
 }

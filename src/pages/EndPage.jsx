@@ -4,18 +4,25 @@ import "./EndPage.css";
 const EndPage = () => {
   return (
     <div className="End_MainDiv">
-      <div className="main">
+      <div className="end-container">
         <div className="line-design1">
-          <h3>Stay Connected</h3>
+          <h2>Stay Connected</h2>
         </div>
 
-        <p>SUBSCRIBE!</p>
+        <div className="p-tag">
+          <p>SUBSCRIBE!</p>
+        </div>
 
-        <div className="line-design">
-          <h3>
+        <div className="line-design2">
+          <h4>
             <img src={image15} alt="logo" />
-          </h3>
+          </h4>
         </div>
+      </div>
+
+      <div className="input_Tag">
+        <input type="email" name="email" placeholder="email address" />
+        <button>subscribe</button>
       </div>
     </div>
   );

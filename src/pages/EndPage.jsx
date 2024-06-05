@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import image15 from "../assets/image15.jpg";
 import "./EndPage.css";
 const EndPage = () => {
+  const [email, setEmail] = useState("");
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(email);
+    setEmail("");
+  };
   return (
     <div className="End_MainDiv">
       <div className="end-container">
@@ -20,10 +31,18 @@ const EndPage = () => {
         </div>
       </div>
 
-      <div className="input_Tag">
-        <input type="email" name="email" placeholder="email address" />
-        <button>subscribe</button>
-      </div>
+      <form onSubmit={handleSubmit}>
+        <div className="input_Tag">
+          <input
+            type="email"
+            name="email"
+            placeholder="email address"
+            onChange={handleChange}
+            value={email}
+          />
+          <button type="submit">subscribe</button>
+        </div>
+      </form>
     </div>
   );
 };
